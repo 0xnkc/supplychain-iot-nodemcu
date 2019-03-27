@@ -96,7 +96,7 @@ void displayInfo()
     ThingSpeak.setField(3,temperature);
     ThingSpeak.setField(4,humidity);
     ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);  
-    delay(2000);
+    delay(1000);
     
   }
   else
